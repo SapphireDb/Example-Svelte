@@ -1,93 +1,66 @@
-*Psst  looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# SapphireDb: Example-Svelte (using sapphiredb)
 
----
+**Example Svelte application using SapphireDb** 
 
-# svelte app
+<p align="center">
+  <a href="https://sapphire-db.com/">
+    <img src="https://sapphire-db.com/assets/banner/SapphireDB%20Banner.png" alt="SapphireDb logo">
+  </a>
+</p>
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+This is a demo project for SapphireDb. It should demonstrate how to use SapphireDb with different technologies.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+The examples contains a simple CRUD demo and a simple chat.
 
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
+You don't need to set up a server running SapphireDb to try it out.
+A demo server can be reached at the following address: https://sapphiredb-demo.azurewebsites.net/
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+## Try it out
 
+You can try out this example by following these steps: 
 
-## Get started
+1. Clone the sources and switch to the directory
+2. Run `npm install`
+3. Run `npm run dev` and navigate to [http://localhost:5000](http://localhost:5000)
 
-Install the dependencies...
+## Other examples
 
-```bash
-cd svelte-app
-npm install
-```
+### Server
 
-...then start [Rollup](https://rollupjs.org):
+[AspNet Core Example](https://github.com/SapphireDb/Example-AspNetCore)
 
-```bash
-npm run dev
-```
+### Client
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+[React Example](https://github.com/SapphireDb/Example-React)
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+[Svelte Example](https://github.com/SapphireDb/Example-Svelte)
 
+[NodeJs Example](https://github.com/SapphireDb/Example-NodeJs)
 
-## Building and running in production mode
+[Angular Example](https://github.com/SapphireDb/Example-Angular)
 
-To create an optimised version of the app:
+## Documentation
 
-```bash
-npm run build
-```
+Check out the documentation for more details: [Documentation](https://sapphire-db.com/)
 
-You can run the newly built app with `npm run start`. This uses [sirv](https://github.com/lukeed/sirv), which is included in your package.json's `dependencies` so that the app will work when you deploy to platforms like [Heroku](https://heroku.com).
+## Implementations
 
+### Server
 
-## Single-page app mode
+[SapphireDb - Server for Asp.Net Core](https://github.com/morrisjdev/SapphireDb)
 
-By default, sirv will only respond to requests that match files in `public`. This is to maximise compatibility with static fileservers, allowing you to deploy your app anywhere.
+### Client
 
-If you're building a single-page app (SPA) with multiple routes, sirv needs to be able to respond to requests for *any* path. You can make it so by editing the `"start"` command in package.json:
+[sapphiredb - JS client (JS, NodeJs, React, Svelte, ...)](https://github.com/SapphireDb/sapphiredb-js/blob/master/projects/sapphiredb/README.md)
 
-```js
-"start": "sirv public --single"
-```
+[ng-sapphiredb - Angular client](https://github.com/SapphireDb/sapphiredb-js/blob/master/projects/ng-sapphiredb/README.md)
 
+## Author
 
-## Deploying to the web
+[Morris Janatzek](http://morrisj.net) ([morrisjdev](https://github.com/morrisjdev))
 
-### With [now](https://zeit.co/now)
+## Licenses
 
-Install `now` if you haven't already:
+SapphireDb - [MIT License](https://github.com/SapphireDb/SapphireDb/blob/master/LICENSE)
 
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-cd public
-now deploy --name my-project
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public my-project.surge.sh
-```
+sapphiredb-js - [MIT License](https://github.com/SapphireDb/sapphiredb-js/blob/master/LICENSE)
