@@ -61,7 +61,7 @@ function serve() {
 			if (!started) {
 				started = true;
 
-				require('child_process').spawn('npm', ['run', 'start', '--', '--dev', '--port 5555'], {
+				require('child_process').spawn('npm', ['run', 'start', '--', '--dev', '--port 5000'], {
 					stdio: ['ignore', 'inherit', 'inherit'],
 					shell: true
 				});
