@@ -19,6 +19,10 @@ A demo server can be reached at the following address: https://sapphiredb-demo.a
 
 You can try out this example by following these steps: 
 
+1. [Open in Gitpod](https://gitpod.io/#https://github.com/SapphireDb/Example-Svelte)
+
+or
+
 1. Clone the sources and switch to the directory
 2. Run `npm install`
 3. Run `npm run dev` and navigate to [http://localhost:5000](http://localhost:5000)
