@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f8cd4d8-8708-42bd-ae0c-35b295dfc8a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitpod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitpod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9f8cd4d8-8708-42bd-ae0c-35b295dfc8a6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <workItem from="1579630791755" duration="2287000" />
       <workItem from="1579633147660" duration="464000" />
       <workItem from="1580663726557" duration="3185000" />
-      <workItem from="1580744114950" duration="273000" />
+      <workItem from="1580744114950" duration="386000" />
     </task>
     <task id="LOCAL-00001" summary="updated example to work with demo server">
       <created>1580666009529</created>
@@ -118,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580744240381</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update gitpod.yml">
+      <created>1580744398882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580744398882</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +146,7 @@
     <MESSAGE value="changed settings" />
     <MESSAGE value="added gitpod yml" />
     <MESSAGE value="updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
+    <MESSAGE value="update gitpod.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitpod.yml" />
   </component>
 </project>
